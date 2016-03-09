@@ -6,7 +6,6 @@ job('DSL-Tutorial-1-Test') {
     scm('*/15 * * * *')
   }
   steps {
-    # maven('-e clean test')
-
+    shell('whoami')
   }
 }
